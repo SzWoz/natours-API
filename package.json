@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "node tutorial api",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SzWoz/natours-api.git"
+  },
+  "author": "Szymon Woźny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SzWoz/natours-api/issues"
+  },
+  "homepage": "https://github.com/SzWoz/natours-api#readme"
+}
