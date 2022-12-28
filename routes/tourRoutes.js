@@ -11,9 +11,7 @@ const {
   checkBody,
 } = require('../controllers/tourController');
 
-router.param('id', checkID);
-
-router.route('/').get(getAllTours).post(checkBody, createTour);
+router.route('/').get(getAllTours).post(createTour);
 router.route('/:id').get(getTourByID).patch(updateTour).delete(deleteTour);
 
 module.exports = router;
