@@ -12,9 +12,9 @@ mongoose
     useCreateIndex: true,
     useUnifiedTopology: true,
   })
-  .then(() => console.log('dobry przekaz leci'));
+  .then(() => console.log('connected to db'));
 
 const port = process.env.port || 3000;
 app.listen(port, () => {
-  console.log('running');
+  console.log('server online');
 });
